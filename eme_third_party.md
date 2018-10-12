@@ -64,7 +64,7 @@ I've experimented around with run-time code patches through DLL injection before
 I'd estimate this to be much more work than the 64-bit port, but both combined should still be less work than implementing a proper modding platform from scratch.
 
 ## Implementing built-in client-side prediction
-I think [this Wikipedia article](https://en.wikipedia.org/wiki/Client-side_prediction) as been linked pretty often already. This would be a proper, non-band aid replacement for skill-prediction. TERA urgently needs that.
+I think [this Wikipedia article](https://en.wikipedia.org/wiki/Client-side_prediction) has been linked pretty often already. This would be a proper, non-band aid replacement for skill-prediction. TERA urgently needs that.
 
 ## Improving the network protocol
 It's common knowledge that TERA's network communications protocol is beyond inefficient. Why does `S_SPAWN_NPC` send the internal Korean description string for every single NPC that's spawned on your screen? Why does using regular nocteniums in combat make the server literally DoS-attack you with an insane packet spam?
