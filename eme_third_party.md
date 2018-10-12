@@ -107,7 +107,7 @@ I hate to bring it up and please don't get me wrong here, this is absolutely not
 ## Improving your region-specific game properties
 Many of the players who migrated from NA to EU were pleasantly surprised by the differences in gearing and the cash shop business model. Within the two weeks since the DMCAs, some people who switched publishers have already managed to reach lower-Stormcry enchant levels after leveling their newly created characters to 65.
 
-There's a [really great forum post](https://board.tera.gameforge.com/index.php/Thread/73935-NA-Refugee-s-Guide-to-EU-TERA/?postID=910309#post910309) someone wrote in response to the NA player influx, outlining the regional differences. EME, you might want to look at that and consider your options, especially in regards to talent problem which the community has been begging you to solve for *months*.
+There's a [really great forum post](https://board.tera.gameforge.com/index.php/Thread/73935-NA-Refugee-s-Guide-to-EU-TERA/?postID=910309#post910309) someone wrote in response to the NA player influx, outlining the regional differences. EME, you might want to look at that and consider your options, especially in regards to the talent problem which the community has been begging you to solve for *months*.
 
 ## Officially allowing DPS meters
 Even if you decide to continue disallowing the use of proxy in any form, you should post an official statement allowing the use of third-party applications that do not modify or interfere with network traffic, e.g. DPS meters. There's literally nothing you can lose by doing so.
