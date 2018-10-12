@@ -136,6 +136,8 @@ I hope you're still with me after this wall of text.
 
 Once again, let me emphasize that I was pleasantly surprised by EME suddenly reaching out to me and even proposing an official modding platform, even though I am pretty sure that they were only convinced to do so by force, i.e. a massive drop in player numbers/sales. As you have read in the chat log, I politely declined their offer, because I am personally done with EME after all the shit they've pulled off in the past years. Nevertheless, I'd be glad to see them finally get back on track and become a better publisher again.
 
+**EDIT**: Note that this does *not* mean NA support will be coming back for my proxy! This is *not* a personal decision out of spite. I have no desire to cooperate with EME given our history, but there are also no personal reasons to not support proxy on NA. However, there are potential legal consequences of me just going ahead and ignoring their DMCA takedown. Please understand that I do not want to risk legal complications here. **If EME were to contact me (or publish a statement) explicitly allowing/tolerating tera-proxy in a legally binding manner, I would reimplement NA support.**
+
 Furthermore, as I've written earlier, I would very much welcome an official modding tool (for all regions!). However, I've outlined my concerns about the feasibility of such a project, and listed issues that, in my opinon, should be tackled first. If that has crushed your hopes, I'm sorry :(
 
 I'm sure that everyone will closely follow the development. It would be in EME's very best interest to keep posting status updates often.
