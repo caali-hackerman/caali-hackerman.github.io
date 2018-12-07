@@ -26,6 +26,9 @@ Before christmas.
 - Proxy `config.json` will be automatically migrated from `[proxy]/bin/config.json` to `[proxy]/config.json`.
 - Server list config files will be automatically migrated from `[proxy]/bin/lib/res/` to `[proxy]/bin/servers/`.
 - Proxy core files will be automatically migrated from `[proxy]/bin/lib/` to `[proxy]/bin/`.
+- Region improvements
+  - Russian players will now be able to use proxy properly using both `www.tera-online.ru` and `launcher.tera-online.ru` (fixes proxy servers not appearing in list)
+  - Removed the `KR-NAVER` region. If you're playing on Korean servers through through Naver, just change region to `KR` (it supports both Nexon and Naver logins now).
 
 
 ## General
