@@ -52,6 +52,7 @@ Before christmas.
 - `'author'`: arbitrary string indicating module author(s) (from `module.json`, see example below)
 - `'description'`: arbitrary string describing the module (from `module.json`, see example below)
 - `'version'`: arbitrary string describing the module's current version (from `module.json`, see example below)
+- `'donationUrl'`: arbitrary string indicating the module author's donation URL (from `module.json`, see example below)
 - `'path'`: absolute path to the module's root folder (regular mods) or JS file (standalone mods)
 - `'options'`: `module.json` options field (shortcut: `mod.options`)
 - `'drmKey'`: `module.json` drm key
