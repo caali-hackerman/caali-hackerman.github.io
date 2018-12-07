@@ -20,13 +20,21 @@ Before christmas.
 - If you want to go back to the live version, change branch to `"master"` and rename `[proxy folder]/mods/` to `[proxy folder]/bin/node_modules/`
 
 # Changelog
+## Major changes for end users
+- Mods will be automatically migrated from `[proxy]/bin/node_modules/` to `[proxy]/mods/`.
+  - Devs: this will break any attempt at `require()`ing other mods. Use `mod.game`/`mod.command`/`mod.require` instead!
+- Proxy `config.json` will be automatically migrated from `[proxy]/bin/config.json` to `[proxy]/config.json`.
+- Server list config files will be automatically migrated from `[proxy]/bin/lib/res/` to `[proxy]/bin/servers/`.
+- Proxy core files will be automatically migrated from `[proxy]/bin/lib/` to `[proxy]/bin/`.
+
+
 ## General
 - JS strict mode is now enforced globally. This means that you don't need to `"use strict"` your modules anymore, and it will give proxy a nice overall speed boost.
 - Added `mod.require` with identical behavior to Pinkie's version.
   - Use this to require other mods, except for command/tera-game-state (use `mod.command` and `mod.game`!)
 - `manifest.json` is now downloaded and stored in the mod's folder as well
-- Mods will be automatically migrated from `[proxy]/bin/node_modules/` to `[proxy]/mods/`. This will break any attempt at `require()`ing other mods. Use `mod.game`/`mod.command`/`mod.require` instead!
 - It is highly recommended that you set and maintain `"name"`, `"author"`, `"description"`, and optionally `"version"` (all strings, see example below) in `module.json` for each of your mods. This will facilitate making a module management GUI and advertise your module in an installation screen
+- Proxy's working directory ('./') is now `[proxy]/` root folder instead of `[proxy]/bin/lib/`
 
 
 ## Added `mod.info` object with the following attributes:
