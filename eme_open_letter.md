@@ -1,0 +1,34 @@
+This whole proxy discussion/drama just shows how uninformed or ignorant a lot of people are. Let me emphasize this: We're *not* the black hat people exploiting the game. Neither do we have the intention to be. Those people who misquoted obvious jokes I made about using exploits to harm NA as threats from my side are just trying to spin things around so that they match their perspective.
+
+
+Let me clarify this a bit:
+
+We, the third-party developers, have time and time again spoken out against exploits, cheats, and other unethical modules. In our Discord servers, we have warned or banned on sight everyone who asked for or shared exploits. We keep reminding people to turn off SP in PvP situations because we're aware of the fact that it's not perfect and, due to Tera's badly implemented synchronization mechanisms, can lead to desyncs and other behavior that could give you an unfair advantage. SaltyMonkey, the main developer of SP for my proxy, has spent countless hours every day working on improving SP, adding support for stuns/fears/etc to reduce the impact it has even if someone decides to abuse it in PvP. We trust that a majority of proxy users just want to play the game as it is meant to be played: with Korean-level infrastructure, that is high bandwidths and extremely low latencies. Popular tools like SP and FPSUtils help in doing so.
+
+Every single patch day when EME's faulty updater broke a lot of players' game client, we gave our best and kept providing unofficial tech support for hundreds of players on some patch days. In doing so we were, in fact, oftentimes quicker to respond and could provide better proposals for solving the issues due to our superior knowledge of the game's internals (not wanting to brag, but we know a lot more about the internals than most EME employees, or those of any other publisher, for obvious reasons).
+
+We tried again and again to contact EME and certain other publishers in order to report game-breaking exploits. Most of these attempts (in fact, all attempts at contacting EME) were futile and we were ignored. Take the infamous chat exploit, for example. I had personally reported it anonymously to EME and BHS about half a year prior to it becoming public. I'm not sure where exactly the report got lost or was ignored, but it obviously never got fixed. Even to this day, there are multiple S-tier exploits still in the game which could be used to cause *severe* damage to players, the economy, and the publishers. All of those that I personally know were anonymously reported a long time ago and I have not heard feedback regarding a single one of them. Even though some people on the forum accused me of this, I didn't share them with anyone, ever.
+
+Furthermore, personally I haven't made a penny from any of my work - it's all free of charge and open source. I even refused to accept donations despite being asked for it over and over again. There are other developers who charge for proxy modules that they developed, but their stuff did *not* get taken down in any way. They were not impacted by EME's move in any way.
+
+Which leads me to the next point: the actual black hat hackers, botters, exploiters, and gold sellers. Trust me on this one, but I know about quite a few that are lurking completely in the shadows, in fact it's not unlikely that none of you have never heard about them before. Waging war against proxy will *not* stop them in their endeavours. They are perfectly capable of maintaining their private tools themselves, they have been before proxy as you know it was even developed, and they will be for all days to come.
+
+And yet, some people accuse me and the other developers of being greedy fucks who sell proxy and exploits to people, with the mere goal of destroying the game or profiting off it. They must either be uninformed, blatantly ignorant of the truth, or trolling.
+
+
+In my personal opinion, EME's decision to DMCA the Discord and the GitHub repositories was totally over the top and I took it as a personal attack. Most of the third-party developers, including me, have always been open for communication with the publishers and kept emphasizing that.
+
+As an example, within the timespan of her being on my proxy Discord server, I think I've pinged KitTeaCup at least 2 or 3 times when EME's updater/launcher broke, so that she could get their tech team to fix it asap. To this day I've not once declined an attempt of any publisher at contacting me. If any EME official, for example her, would just have contacted me about proxy in an effort to talk about limiting it to a handful of select allowed modules, or even just requesting it to be taken down entirely for NA servers, I would have happily complied to their requests - I would also have voiced my concerns about the large impact that this would have on their playerbase *before* it would actually happen - the consequences we are witnessing right now.
+
+Instead, without a word, they DMCA'd everything, pissing off not only the third-party developers but also a large portion of their playerbase. We, the third-party developers, have without hesitation complied to full extent and have made all third-party software unavailable for EME's services. The players have reacted, voicing their criticism which was just a compilation of all the issues that piled up over the past years. A massive number of people have either quit or migrated to to other publishers, according to the factual data that we as third-party developers were able to collect and observe, and the long queue times that remaining players have talked about. The competitive and dedicated high-end content players are probably affected more drastically by this than the casual community.
+
+
+In conclusion, allow me to emphasize this again: Should any other region's publisher wish to shut down my proxy's compatibility with their services, feel free to contact me (on Discord, for example). There's no need to take legal action. My intentions are not malicious or evil in any way, in case the publishers and the fanatic anti-proxy people still haven't realized that.
+
+However, based on all that's happened, I (and a lot of other developers) are done with EME. If you guys were to reach out to me personally *now* about a potential solution (perhaps reintroduced proxy or a custom solution similar to SP) to mitigate the impact this has had on the playerbase, I would no longer be open to communication and decline the request. Same goes for reporting of game-breaking exploits, I'll try my luck with other publishers in that regard. After all, the fixes will reach NA as well if my reports get through.
+
+
+I hope I could clarify my standpoint on the matter so that maybe some of will understand the third-party scene's perspective, and realize that things could have been approached in a better way.
+
+Sincerely and see you over at EU servers,
+Caali and other unnamed developers
