@@ -23,21 +23,21 @@ Before christmas.
 ## General
 - JS strict mode is now enforced globally. This means that you don't need to `"use strict"` your modules anymore, and it will give proxy a nice overall speed boost.
 - Added `mod.require` with identical behavior to Pinkie's version.
--- Use this to require other mods, except for command/tera-game-state (use `mod.command` and `mod.game`!)
+  - Use this to require other mods, except for command/tera-game-state (use `mod.command` and `mod.game`!)
 - `manifest.json` is now downloaded and stored in the mod's folder as well
-- Mods will be automatically migrated from `[proxy]/bin/node_modules/` to `[proxy]/mods/`. This will break any attempt at `require()`ing other mods. Use mod.game/mod.command/mod.require instead!
-- It is highly recommended that you set and maintain "name", "author", "description", and optionally "version" (all strings, see example below) in `module.json` for each of your mods. This will facilitate making a module management GUI and advertise your module in an installation screen
+- Mods will be automatically migrated from `[proxy]/bin/node_modules/` to `[proxy]/mods/`. This will break any attempt at `require()`ing other mods. Use `mod.game`/`mod.command`/`mod.require` instead!
+- It is highly recommended that you set and maintain `"name"`, `"author"`, `"description"`, and optionally `"version"` (all strings, see example below) in `module.json` for each of your mods. This will facilitate making a module management GUI and advertise your module in an installation screen
 
 
 ## Added `mod.info` object with the following attributes:
 - `'type'`: `'regular'` (mod with its own folder) or `'standalone'` (single JS file)
 - `'compatibility'`: `'compatible'` (auto update compatible) or `'legacy'` (old stuff)
 - `'name'`: a unique identifier for the mod, e.g. `skill-prediction` (shortcut: `mod.name`)
--- Can be specified in `module.json` through `"name": "skill-prediction"` in the global object
--- If unspecified, the module's file name (standalone) or folder name (regular) is used instead
--- **Note: If multiple mods with identical names are installed, only one will be loaded!**
--- This prevents, for example, multiple installations of SP (skill-prediction and skill-prediction-master)
--- Similar to Pinkie's `mod.namespace`
+  - Can be specified in `module.json` through `"name": "skill-prediction"` in the global object
+  - If unspecified, the module's file name (standalone) or folder name (regular) is used instead
+  - **Note: If multiple mods with identical names are installed, only one will be loaded!**
+  - This prevents, for example, multiple installations of SP (skill-prediction and skill-prediction-master)
+  - Similar to Pinkie's `mod.namespace`
 - `'author'`: arbitrary string indicating module author(s) (from `module.json`, see example below)
 - `'description'`: arbitrary string describing the module (from `module.json`, see example below)
 - `'version'`: arbitrary string describing the module's current version (from `module.json`, see example below)
@@ -51,22 +51,22 @@ Before christmas.
 ## Module management is now done by the ModuleManager class, which is separate from proxy.js and dispatch
 - Accessible through `mod.manager`
 - Interface:
--- `isInstalled(name)` checks if a module with `mod.name` === `name` is installed (regardless of whether it's loaded or not)
--- `getInfo(name)` returns the `mod.info` of the corresponding module
--- `isLoaded(name)` checks if the specified module is loaded
--- `get(name)` returns the `Module` instance (or `null` if not found).
---- **Note: Unlike the removed `dispatch.get`, this returns the module wrapper, not the module itself.**
---- **Use `get(name).instance` to access the module itself - however, `mod.require` is much more convenient for the same purpose**
--- `isCoreModule(name)` returns true for `'command'` and `'tera-game-state'`
--- `load(name)` loads the specified module (if not yet loaded) and returns its `Module` instance. **Use with caution, or even better - not at all!**
--- `unload(name)` unloads the specified module (if loaded). Returns true/false based on success. **Use with caution, or even better - not at all!**
--- `reload(name)` reloads the specified module if it supports hot-reloading (see below). Returns true/false based on success.
+  - `isInstalled(name)` checks if a module with `mod.name` === `name` is installed (regardless of whether it's loaded or not)
+  - `getInfo(name)` returns the `mod.info` of the corresponding module
+  - `isLoaded(name)` checks if the specified module is loaded
+  - `get(name)` returns the `Module` instance (or `null` if not found).
+    - **Note: Unlike the removed `dispatch.get`, this returns the module wrapper, not the module itself.**
+    - **Use `get(name).instance` to access the module itself - however, `mod.require` is much more convenient for the same purpose**
+  - `isCoreModule(name)` returns true for `'command'` and `'tera-game-state'`
+  - `load(name)` loads the specified module (if not yet loaded) and returns its `Module` instance. **Use with caution, or even better - not at all!**
+  - `unload(name)` unloads the specified module (if loaded). Returns true/false based on success. **Use with caution, or even better - not at all!**
+  - `reload(name)` reloads the specified module if it supports hot-reloading (see below). Returns true/false based on success.
 
 ## Native support for module hot-reloading
 - Needs to be explicitly enabled in `module.json` by setting `"reloadable": true` in the `"options": {}` field.
 - If you need to transfer the internal state of your mod (for example info from your `S_LOGIN` hook which wouldn't be invoked without a relog):
--- Implement `saveState()` (returns an object with your mod's current state) and `loadState(state)` (said object, used to restore your mod's current state from `state`) functions in your mod.
--- Proxy will, in that order, call your mod's `saveState()`, `destructor()`, destroy your mod, delete your mod from require cache, reload your mod from disk, create a new instance (`constructor()`), and finally call `loadState(state)` with your saved state.
+  - Implement `saveState()` (returns an object with your mod's current state) and `loadState(state)` (said object, used to restore your mod's current state from `state`) functions in your mod.
+  - Proxy will, in that order, call your mod's `saveState()`, `destructor()`, destroy your mod, delete your mod from require cache, reload your mod from disk, create a new instance (`constructor()`), and finally call `loadState(state)` with your saved state.
 
 ## Module management interface removed from `Dispatch`
 - Deleted `mod.dispatch.isLoaded(name)` - use `mod.manager.isLoaded(name)` instead
