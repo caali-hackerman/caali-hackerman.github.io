@@ -99,7 +99,9 @@ There's now a new global object containing the following:
 - Deleted `mod.dispatch.unload(name)` - use `mod.manager.unload(name)` instead
 
 ## Improved error handling
-- Better error messages for proxy self-update, including downloaded file hash verification to prevent update loops when GitHub takes its time
+- Better output for proxy self-update
+  - Now also shows which files are updated when update log is enabled in `config.json`
+  - Downloaded file hash verification to prevent update loops when GitHub takes its time, accompanied by proper error messages
 - Def versions requested in `manifest.json` will now be checked _before_ loading the module. If any def is not supported, a list of incompatible ones will be printed and the mod will not be loaded.
 - Errors in `dispatch` functions now throw an error instead of silently swallowing it or just printing a message
 - Simplified console formatting, started removing baldera-logger dependency
