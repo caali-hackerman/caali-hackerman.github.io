@@ -68,6 +68,9 @@ There's now a new global object containing the following:
 - `'supportUrl'`: `module.json` support url
 - `'autoUpdateDisabled'`: `null` for legacy mods, `true` or `false` for compatible mods based on `module.json` settings
 - `'packets'`: copy of `"def"` field in `manifest.json`
+- `'dependencies'`: array of module names that this module requires to run (see below)
+  - Note: this is extracted from only the keys of what's in `module.json`. The URLs are discarded
+- `'conflicts'`: array of module names that must not be installed in order for this module to run
 
 ## Module management is now done by the ModuleManager class, which is separate from proxy.js and dispatch
 - Accessible through `mod.manager`
@@ -122,6 +125,17 @@ Dependencies for modules can (and should!) now be specified in `module.json` and
     "dependencies": {
         "library": "https://raw.githubusercontent.com/Kaseaa/library/master/module.json"
     }
+}
+```
+
+## Module Conflicts
+Similar to dependencies, modules can also specify the names of other modules that must not be installed in order for them to run.
+- Note that these are `mod.name`s, **not** folder names. So specifying, for example, `'skill-prediction'` here will block SP regardless of whether it's installed to `skill-prediction`, `sp`, `sp-master`, etc.
+- Format is like this (`module.json`):
+```js
+{
+    // ... snip ...
+    "conflicts": ['skill-prediction', 'ping-remover']
 }
 ```
 
