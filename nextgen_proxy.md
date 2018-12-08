@@ -119,6 +119,7 @@ There's now a new global object containing the following:
         this.SomeFeatureEnabled = false;
     }
   ```
+  - **Note about a rare edge case:** If you configure your module to be loaded before the protocol version is known (by default it's loaded afterwards), all hooks that you create before it becomes known will not support this feature.
 - Simplified console formatting, started removing baldera-logger dependency
 
 ## Module Dependencies
