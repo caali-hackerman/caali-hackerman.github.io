@@ -39,6 +39,15 @@ Before christmas.
 - It is highly recommended that you set and maintain `"name"`, `"author"`, `"description"`, and optionally `"version"` (all strings, see example below) in `module.json` for each of your mods. This will facilitate making a module management GUI and advertise your module in an installation screen
 - Proxy's working directory ('./') is now `[proxy]/` root folder instead of `[proxy]/bin/lib/`
 
+## Added global proxy constants
+There's now a new global object containing the following:
+- `global.TeraProxy.DevMode`:
+  - Can be set by adding `"devmode": true` to `[proxy]/config.json`
+  - Modules can access this to determine whether or not to output additional (verbose) info, perform specialized stuff, etc.
+  - Proxy core will use this in the future to annoy devs with deprecation warnings etc, but leave regular users in peace
+- `global.TeraProxy.DiscordUrl`: invite link to my discord server
+- `global.TeraProxy.SupportUrl`: link to help channel of my discord
+  - If you don't have your own Discord server for support of your modules, feel free to add these to your error messages. Perhaps add your own Discord tag.
 
 ## Added `mod.info` object with the following attributes:
 - `'type'`: `'regular'` (mod with its own folder) or `'standalone'` (single JS file)
