@@ -135,7 +135,7 @@ Similar to dependencies, modules can also specify the names of other modules tha
 ```js
 {
     // ... snip ...
-    "conflicts": ['skill-prediction', 'ping-remover']
+    "conflicts": ["skill-prediction", "ping-remover"]
 }
 ```
 
