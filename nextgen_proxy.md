@@ -8,7 +8,7 @@ Heavily refactored/rewritten proxy core that
 
 
 ## "When will it be released?"
-Before christmas.
+Planned next weekend (15th)
 
 
 ## "But I want to test it already!"
@@ -16,8 +16,12 @@ Before christmas.
 - **!!! ONLY DO THIS IF YOU KINDA KNOW YOUR WAY AROUND A COMPUTER !!!**
 - **!!! SUPPORT FOR NEXTGEN TESTING WILL BE LIMITED !!!**
 - **!!! IF YOU FIND ANY BUG OR BROKEN MODULE, PLEASE REPORT IT !!!**
-- Add `"branch": "nextgen"` to `[proxy folder]/bin/config.json`, then restart proxy.
-- If you want to go back to the live version, change branch to `"master"` and rename `[proxy folder]/mods/` to `[proxy folder]/bin/node_modules/`
+- **!!! MAKE A BACKUP OF YOUR OLD PROXY FOLDER !!!**
+- Make sure you have a fully updated proxy.
+- Add `"branch": "nextgen"` to `[proxy folder]/bin/config.json`
+- Start proxy, it'll take some time and then ask you to restart - do that.
+- Let it start and once it shows the typical "ready"/"listening" text, restart it again. **Note: this step will not be needed when updating to nextgen after it's been released!**
+- It'll migrate a lot of stuff, then you're done. Enjoy! :)
 
 # Changelog
 ## Major changes for end users
