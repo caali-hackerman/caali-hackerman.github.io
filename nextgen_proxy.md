@@ -104,6 +104,21 @@ There's now a new global object containing the following:
   - Downloaded file hash verification to prevent update loops when GitHub takes its time, accompanied by proper error messages
 - Def versions requested in `manifest.json` will now be checked _before_ loading the module. If any def is not supported, a list of incompatible ones will be printed and the mod will not be loaded.
 - Errors in `dispatch` functions now throw an error instead of silently swallowing it or just printing a message
+  - This also means that you can now handle failed hooks properly, like this:
+  ```js
+    // Hooking S_SOME_PACKET is optional
+    try {
+        mod.hook('S_SOME_PACKET', 1, event => {
+            // Do stuff
+        })
+        
+        // Hooking successful!
+        this.SomeFeatureEnabled = true;
+    } catch (_) {
+        // Hooking failed - packet/def not supported, so disable optional feature.
+        this.SomeFeatureEnabled = false;
+    }
+  ```
 - Simplified console formatting, started removing baldera-logger dependency
 
 ## Module Dependencies
