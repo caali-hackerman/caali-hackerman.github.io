@@ -33,7 +33,7 @@ Planned next weekend (15th)
 - Region improvements
   - Russian players will now be able to use proxy properly using both `www.tera-online.ru` and `launcher.tera-online.ru` (fixes proxy servers not appearing in list)
   - Removed the `KR-NAVER` region. If you're playing on Korean servers through through Naver, just change region to `KR` (it supports both Nexon and Naver logins now).
-
+- The modules `swim-fix` and `chat-sanitizer` have been merged into a single `bugfix` module. Migration will be performed automatically if they are installed.
 
 ## General
 - JS strict mode is now enforced globally. This means that you don't need to `"use strict"` your modules anymore, and it will give proxy a nice overall speed boost.
