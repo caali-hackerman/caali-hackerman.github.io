@@ -103,6 +103,7 @@ There's now a new global object containing the following:
 - Deleted `mod.dispatch.unload(name)` - use `mod.manager.unload(name)` instead
 
 ## Improved error handling
+- Simplified console formatting, removed baldera-logger dependency
 - Better output for proxy self-update
   - Now also shows which files are updated when update log is enabled in `config.json`
   - Downloaded file hash verification to prevent update loops when GitHub takes its time, accompanied by proper error messages
@@ -124,7 +125,7 @@ There's now a new global object containing the following:
     }
   ```
   - **Note about a rare edge case:** If you configure your module to be loaded before the protocol version is known (by default it's loaded afterwards), all hooks that you create before it becomes known will not support this feature.
-- Simplified console formatting, started removing baldera-logger dependency
+- Added `mod.tryHook`, `mod.tryHookOnce`, and `mod.trySend` functions as short form for wrapping their regular counterparts in `try{ ... } catch(_) {}`. On error, they return `null` (hook) or `false` (send).
 
 ## Module Dependencies
 Dependencies for modules can (and should!) now be specified in `module.json` and will be installed automatically if missing. `Please download dependency, library` - never again!
