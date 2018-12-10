@@ -61,10 +61,12 @@ There's now a new global object containing the following:
 - `'compatibility'`: `'compatible'` (auto update compatible) or `'legacy'` (old stuff)
 - `'name'`: a unique identifier for the mod, e.g. `skill-prediction` (shortcut: `mod.name`)
   - Can be specified in `module.json` through `"name": "skill-prediction"` in the global object
+  - Will be converted to all-lowercase automatically
   - If unspecified, the module's file name (standalone) or folder name (regular) is used instead
   - **Note: If multiple mods with identical names are installed, only one will be loaded!**
   - This prevents, for example, multiple installations of SP (skill-prediction and skill-prediction-master)
   - Similar to Pinkie's `mod.namespace`
+- `'rawName'`: same as `'name'`, but without conversion to lowercase
 - `'author'`: arbitrary string indicating module author(s) (from `module.json`, see example below)
 - `'description'`: arbitrary string describing the module (from `module.json`, see example below)
 - `'version'`: arbitrary string describing the module's current version (from `module.json`, see example below)
