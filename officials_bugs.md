@@ -20,6 +20,10 @@
 - [B80] Quest 51010 VillagerDialog text 3 spelling error "bering" instead of "bring"
 - [B80] Quest 51010 VillagerDialog text 6 spelling error "How much time _to_ we have left?" instead of "How much time _do_ we have left?"
 - [B80] NPC 29,1029 should have dontTurn flag set (corpse lying on the floor turns to you when examining it...).
+- System message `SMT_FIELDNAMED_RANK` is missing first opening `<font color='#1DDB16'>` tag
+- System message `SMT_CITYWAR_DEAD_MESSAGE` is missing closure of first `<font color = '#cccccc'>` tag
+- System message `SMT_GUILD_WAR_WITHDRAW_GUILDMONEY` has additional closing `</font>` tag after the `<font color = '#5efdff'>{GuildName1}</font>` element
+- System message `SMT_ACCOUNT_WAREHOUSE_BUY` text grammar error "to add more tabs your bank storage."
 
 ## Spawns
 - The Tholzak Emitter (46,7001) at 32763.529296875 -28165.0078125 -399.2496032714844 cannot be attacked (at least not with ranged skills, idk about melee) because it's inside a collision wall or something
