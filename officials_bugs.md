@@ -15,7 +15,7 @@
 - [B80] Quest 61302 VillagerDialog text 3 spelling error "sameples" instead of "samples"
 - [B80] Quest 61303 VillagerDialog text 5 missing "." after "Well done"
 - [B80] Quest 61305 VillagerDialog text 3 missing "." after "supposed to"
-- [B80] Quest 61305 VillagerDialog text 6 "BR>" (should be "<BR>" tag)
+- [B80] Quest 61305 VillagerDialog text 6 "BR>" (missing "<" for html tag)
 - [B80] Quest 51010 VillagerDialog text 3 spelling error "Timberwolfs" instead of "Timberwolves"
 - [B80] Quest 51010 VillagerDialog text 3 spelling error "bering" instead of "bring"
 - [B80] Quest 51010 VillagerDialog text 6 spelling error "How much time _to_ we have left?" instead of "How much time _do_ we have left?"
