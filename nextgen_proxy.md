@@ -75,7 +75,7 @@ There's now a new global object containing the following:
 - `'options'`: `module.json` options field (shortcut: `mod.options`)
 - `'drmKey'`: `module.json` drm key
 - `'supportUrl'`: `module.json` support url
-- `'autoUpdateDisabled'`: `null` for legacy mods, `true` or `false` for compatible mods based on `module.json` settings
+- `'disableAutoUpdate'`: `null` for legacy mods, `true` or `false` for compatible mods based on `module.json` settings
 - `'packets'`: copy of `"def"` field in `manifest.json`
 - `'dependencies'`: array of module names that this module requires to run (see below)
   - Note: this is extracted from only the keys of what's in `module.json`. The URLs are discarded
