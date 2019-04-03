@@ -24,6 +24,10 @@
 - [B80] Quest 50603 VillagerDialog text 23 "to make sure the the way is clear"
 - [B80] Quest 50603 and others keep talking about "butterflies" but the mobs are moths :thinking:
 - [B80] Quest 50603, when advancing to task 40 (StrSheet_Quest 50603078), spelling error "You here a strange sound." instead of "You hear a strange sound."
+- System message `SMT_FIELDNAMED_RANK` is missing first opening `<font color='#1DDB16'>` tag
+- System message `SMT_CITYWAR_DEAD_MESSAGE` is missing closure of first `<font color = '#cccccc'>` tag
+- System message `SMT_GUILD_WAR_WITHDRAW_GUILDMONEY` has additional closing `</font>` tag after the `<font color = '#5efdff'>{GuildName1}</font>` element
+- System message `SMT_ACCOUNT_WAREHOUSE_BUY` text grammar error "to add more tabs your bank storage."
 
 ## Spawns
 - The Tholzak Emitter (46,7001) at 32763.529296875 -28165.0078125 -399.2496032714844 cannot be attacked (at least not with ranged skills, idk about melee) because it's inside a collision wall or something
