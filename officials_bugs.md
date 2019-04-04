@@ -24,12 +24,19 @@
 - [B80] Quest 50603 VillagerDialog text 23 "to make sure the the way is clear"
 - [B80] Quest 50603 and others keep talking about "butterflies" but the mobs are moths :thinking:
 - [B80] Quest 50603, when advancing to task 40 (StrSheet_Quest 50603078), spelling error "You here a strange sound." instead of "You hear a strange sound."
+- [B80] Quest 50603 VillagerDialog text 31 "Bringing these people here was federation's idea"?
+- [B80] Quest 61424 VillagerDialog text 4 spelling error "It's course" instead of "Its course"
+- [B80] Quest 51020 VillagerDialog text 2 spelling error "y daughter" instead of "My daughter"
+- [B80] Quest 51020 VillagerDialog text 3 spelling error "yes" instead of "Yes" at start of sentence
+- [B80] Quest 51020 VillagerDialog text 4 spelling error "treat" instead of "Treat" at start of sentence. Also no punctuation before the ")"
+- [B80] Quest 51020 VillagerDialog text 5 spelling error "tha" instead of "the", "Airship" instead of "airship", and grammar error "maybe there's be some news"
 - System message `SMT_FIELDNAMED_RANK` is missing first opening `<font color='#1DDB16'>` tag
 - System message `SMT_CITYWAR_DEAD_MESSAGE` is missing closure of first `<font color = '#cccccc'>` tag
 - System message `SMT_GUILD_WAR_WITHDRAW_GUILDMONEY` has additional closing `</font>` tag after the `<font color = '#5efdff'>{GuildName1}</font>` element
 - System message `SMT_ACCOUNT_WAREHOUSE_BUY` text grammar error "to add more tabs your bank storage."
 
 ## Spawns
+- In Allemantheia Consul's Hall (zone 2) one of the guards at the entrance (519,1007) is below the map (z = 58, should be z = 186).
 - The Tholzak Emitter (46,7001) at 32763.529296875 -28165.0078125 -399.2496032714844 cannot be attacked (at least not with ranged skills, idk about melee) because it's inside a collision wall or something
 - Some spawns for Castanic Recruit (15,4) have copy&pasted identical patrol routes, which are also very far away from their spawn locations. Looks weird.
 - The Barrelhead Threshers (17,300552) near -15129.9970703125,58051.91015625,2585 are bugged (one of them stands on top of the catapult)
