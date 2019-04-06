@@ -36,6 +36,7 @@
 - System message `SMT_GUILD_WAR_WITHDRAW_GUILDMONEY` has additional closing `</font>` tag after the `<font color = '#5efdff'>{GuildName1}</font>` element
 - System message `SMT_ACCOUNT_WAREHOUSE_BUY` text grammar error "to add more tabs your bank storage."
 - Mystic's Mass Teleport skill tooltip says "Use to healp" instead of "Use to help"
+- Nightlion mount is called "Frostlion" instead of "Nightlion" in its tooltip.
 
 ## Spawns
 - In Allemantheia Consul's Hall (zone 2) one of the guards at the entrance (519,1007) is below the map (z = 58, should be z = 186).
