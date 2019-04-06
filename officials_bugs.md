@@ -30,10 +30,12 @@
 - [B80] Quest 51020 VillagerDialog text 3 spelling error "yes" instead of "Yes" at start of sentence
 - [B80] Quest 51020 VillagerDialog text 4 spelling error "treat" instead of "Treat" at start of sentence. Also no punctuation before the ")"
 - [B80] Quest 51020 VillagerDialog text 5 spelling error "tha" instead of "the", "Airship" instead of "airship", and grammar error "maybe there's be some news"
+- [B80] Quest 61423 VillagerDialog text 8 grammar error "We running out of food..."
 - System message `SMT_FIELDNAMED_RANK` is missing first opening `<font color='#1DDB16'>` tag
 - System message `SMT_CITYWAR_DEAD_MESSAGE` is missing closure of first `<font color = '#cccccc'>` tag
 - System message `SMT_GUILD_WAR_WITHDRAW_GUILDMONEY` has additional closing `</font>` tag after the `<font color = '#5efdff'>{GuildName1}</font>` element
 - System message `SMT_ACCOUNT_WAREHOUSE_BUY` text grammar error "to add more tabs your bank storage."
+- Mystic's Mass Teleport skill tooltip says "Use to healp" instead of "Use to help"
 
 ## Spawns
 - In Allemantheia Consul's Hall (zone 2) one of the guards at the entrance (519,1007) is below the map (z = 58, should be z = 186).
@@ -51,6 +53,7 @@
 - Flying gathering node at 3 -3805.832763671875 19238.0234375 5758.13623046875
 - [B80] WorkObject 50610 (Ritual Jar in Velik's Distorted Dream) is spawned twice in the same place
 - [B80] Flying WorkObject 200031 (Ralotate) at 7011 34389.4453125 -68171.8046875 3386.2763671875
+- [B80] Workobject 200010 (Monster Traces) at 7011 56526 3585 5530 is below the ground
 
 ## NPCs
 - NPC 202,1029 should have dontTurn flag set (lumberjack starts chopping you with his axe when you talk to him...).
