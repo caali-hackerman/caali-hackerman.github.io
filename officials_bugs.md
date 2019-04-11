@@ -31,6 +31,19 @@
 - [B80] Quest 51020 VillagerDialog text 4 spelling error "treat" instead of "Treat" at start of sentence. Also no punctuation before the ")"
 - [B80] Quest 51020 VillagerDialog text 5 spelling error "tha" instead of "the", "Airship" instead of "airship", and grammar error "maybe there's be some news"
 - [B80] Quest 61423 VillagerDialog text 8 grammar error "We running out of food..."
+- [B80] Quest 6000 VillagerDialog text 3 (page 1) spelling error "you've came" instead of "you've come"
+- [B80] Quest 6000 VillagerDialog text 3 (page 2) grammar error "The creatures secrete ... from its wing"
+- [B80] Quest 6000 VillagerDialog text 3 (page 2) grammar error "When monsters inhale this powder, the nevous system [missing: is] disturbed"
+- [B80] Quest 6000 VillagerDialog text 3 (page 2) spelling error "furous" instead of "furious"
+- [B80] Quest 6000 VillagerDialog text 3 (page 3) grammar/spelling error "it's body" instead of "its body"
+- [B80] Quest 6000 VillagerDialog text 9 spelling error "You've came" instead of "You've come"
+- [B80] Quest 6000 VillagerDialog text 13 spelling error "our" instead of "Our"
+- [B80] Quest 6000 VillagerDialog text 21 spelling error "Mos" instead of "Most"
+- [B80] Quest 6000 VillagerDialog text 21 spelling error "they've" instead of "They've"
+- [B80] Quest 6000 VillagerDialog text 22 spelling error "teh" instead of "the"
+- [B80] Quest 6000 VillagerDialog text 22 spelling error "towm" instead of "town"
+- [B80] NPC 238,3004 has a VillagerDialog saying just "Temp"
+- [B80] NPC 38,109 VillagerDialog spelling error "every" instead of "ever"
 - System message `SMT_FIELDNAMED_RANK` is missing first opening `<font color='#1DDB16'>` tag
 - System message `SMT_CITYWAR_DEAD_MESSAGE` is missing closure of first `<font color = '#cccccc'>` tag
 - System message `SMT_GUILD_WAR_WITHDRAW_GUILDMONEY` has additional closing `</font>` tag after the `<font color = '#5efdff'>{GuildName1}</font>` element
@@ -44,6 +57,7 @@
 - The Barrelhead Threshers (17,300552) near -15129.9970703125,58051.91015625,2585 are bugged (one of them stands on top of the catapult)
 - The group of Heavens Fall Farmhand (17,300470) + Enthralled Workers (17,300580) around 7002 -27387.626953125 57267.68359375 2070.90966796875 seems to never respawn after being killed (requires server restart)
 - Flying Cobala Ore node at about 7001 101373 -14228 2413
+- Flying Cobala Ore node at about 7001 88120 -3323 865
 - Flying Plain Stone node at about 7002 -8093 60442 2879
 - Flying Xermetal Ore node at about 7022 -25237 34975.53125 4408
 - Flying Plain Stone node at about 7002 -39455 23026 1179
