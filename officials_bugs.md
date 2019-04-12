@@ -73,3 +73,7 @@
 - NPC 202,1029 should have dontTurn flag set (lumberjack starts chopping you with his axe when you talk to him...).
 - [B80] NPC 29,1029 should have dontTurn flag set (corpse lying on the floor turns towards you when examining it...).
 - [B80] NPC 27,1019 should have dontTurn flag set (siege cannon immediately turns towards you when examining it...).
+
+## Quests
+### EU
+- Reward for completing 16 daily vanguard quests still includes [Item 444] "(Old) Bravery Potion" (1 hour cooldown)
