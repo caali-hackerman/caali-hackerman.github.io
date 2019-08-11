@@ -42,6 +42,10 @@
 - [B80] Quest 6000 VillagerDialog text 21 spelling error "they've" instead of "They've"
 - [B80] Quest 6000 VillagerDialog text 22 spelling error "teh" instead of "the"
 - [B80] Quest 6000 VillagerDialog text 22 spelling error "towm" instead of "town"
+- [B80] Quest 6000 VillagerDialog text 25 spelling error "that's" instead of "That's"
+- [B80] Quest 6000 VillagerDialog text 27 spelling error "mveryone" instead of "everyone"
+- [B80] Quest 6000 VillagerDialog text 28 spelling error "Aura Sentine" instead of "Aura Sentinel"
+- [B80] Quest 6001 VillagerDialog text 12 spelling error "idae" instead of "idea"
 - [B80] NPC 238,3004 has a VillagerDialog saying just "Temp"
 - [B80] NPC 38,109 VillagerDialog spelling error "every" instead of "ever"
 - System message `SMT_FIELDNAMED_RANK` is missing first opening `<font color='#1DDB16'>` tag
@@ -56,6 +60,9 @@
 - Some spawns for Castanic Recruit (15,4) have copy&pasted identical patrol routes, which are also very far away from their spawn locations. Looks weird.
 - The Barrelhead Threshers (17,300552) near -15129.9970703125,58051.91015625,2585 are bugged (one of them stands on top of the catapult)
 - The group of Heavens Fall Farmhand (17,300470) + Enthralled Workers (17,300580) around 7002 -27387.626953125 57267.68359375 2070.90966796875 seems to never respawn after being killed (requires server restart)
+- Duplicate spawns of 2 groups of Lokian Sniper (25,2041) & Lokian Blood Reaper (25,2042) at identical coordinates 7003 -83433.3515625,-39486.55859375,2694 and 7003 -83323.171875,-39493.359375,2696
+- Kelobe (25,5021) and Lysinia (25,5023) spawn/idle inside of a barricade (near 7003 -84598.8515625,-35351.96484375,2694)
+- The 3 Incubators in Granarkus are all spawned in the same location (8001 39927.44921875 66449.84375 2812.475830078125) instead of being spread out
 - Flying Cobala Ore node at about 7001 101373 -14228 2413
 - Flying Cobala Ore node at about 7001 88120 -3323 865
 - Flying Plain Stone node at about 7002 -8093 60442 2879
@@ -73,3 +80,16 @@
 - NPC 202,1029 should have dontTurn flag set (lumberjack starts chopping you with his axe when you talk to him...).
 - [B80] NPC 29,1029 should have dontTurn flag set (corpse lying on the floor turns towards you when examining it...).
 - [B80] NPC 27,1019 should have dontTurn flag set (siege cannon immediately turns towards you when examining it...).
+- NPC 63,40009618 should have dontTurn flag set (hidden egg from easter egg turns towards you when examining it)
+- NPC 72,40009607 should have dontTurn flag set (hidden egg from easter egg turns towards you when examining it)
+- NPC 84,40009607 should have dontTurn flag set (hidden egg from easter egg turns towards you when examining it)
+- NPC 183,40009601 should have dontTurn flag set (hidden egg from easter egg turns towards you when examining it)
+- NPC 183,40009617 should have dontTurn flag set (hidden egg from easter egg turns towards you when examining it)
+- NPC 68,9005 should have dontTurn flag set (hidden egg from easter egg turns towards you when examining it)
+- NPC 61,9005 should have dontTurn flag set (hidden egg from easter egg turns towards you when examining it)
+- NPC 411,5003 should have dontTurn flag set (working blacksmith turns towards you when talking to him)
+- NPC 411,5004 should have dontTurn flag set (working blacksmith turns towards you when talking to him)
+- NPC 411,5005 should have dontTurn flag set (working blacksmith turns towards you when talking to him)
+- NPC 411,5006 should have dontTurn flag set (working blacksmith turns towards you when talking to him)
+- NPC 411,5015 should have dontTurn flag set (working blacksmith turns towards you when talking to him)
+
